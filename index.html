@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>生命游戏</title>
+        <link rel="stylesheet" href="css/style.css" charset="utf-8">
+    </head>
+    <body>
+        <div class="grid"></div>
+        <div class="console">
+            <button type="button" name="clear">清除所有细胞</button>
+            <button type="button" name="random">随机生成细胞</button>
+            <button type="button" name="begin">开始演化</button>
+            <button type="button" name="speedUp">加速</button>
+            <button type="button" name="slowDown">减速</button>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/lifeGame.js"></script>
+    <script>
+      map.init(50, 100);
+      timer.init();
+      gui.init();
+      gui.render();
+    </script>
+</html>

@@ -1,0 +1,16 @@
+.grid {
+  width: 90vw;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.console {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  position: absolute;
+  border: 0.1px dotted;
+}
